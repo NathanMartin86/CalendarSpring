@@ -19,7 +19,7 @@ public class Event {
     @Column(nullable = false)
     public LocalDateTime date;
 
-    @ManyToOne
+    @ManyToOne // are these backwards???
     public User user;
 
     public Event() {
