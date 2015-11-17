@@ -20,8 +20,8 @@ public class User {
     @Column(nullable = false)
     public String password;
 
-    @OneToMany(mappedBy = "user")
-    List<Event> events;
+    //@OneToMany(mappedBy = "user")
+    //List<Event> events;
 
     public User() {
 
